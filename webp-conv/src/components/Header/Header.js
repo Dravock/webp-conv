@@ -63,14 +63,14 @@ return (
                     </div>
                     <div className='grid grid-cols-12 text-white mt-20'>
                         {navbarLinks && navbarLinks.map(({title,url},index) =>
-                            <a href={baseURL+url}  className='col-span-full py-6 text-lg md:text-xl font-bold mx-2'  key={index}>{title}</a>
+                            <a href="" className='col-span-full py-6 text-lg md:text-xl font-bold mx-2'  key={index}>{title}</a>
                         )}
                     </div>
                 </div>
 
                 <div id="desktop-nav-bar" className='hidden sm:flex  mt-8 '>     
                         {navbarLinks && navbarLinks.map(({title,url},index)=>
-                            <a href={baseURL+url} className='col-span-full text-lg md:text-xl font-bold mx-2 hover-underline-animation'  key={index}>{title}</a>
+                            <a href="" className='col-span-full text-lg md:text-xl font-bold mx-2 hover-underline-animation'  key={index}>{title}</a>
                         )}
                 </div>
             </div>
